@@ -344,18 +344,10 @@ a {
 
     }
 
-    .author {
-        padding-top: $padding * 3;
-        padding-bottom: $padding * 3;
-
-    }
-
+    .author,
     .contact {
         padding-top: $padding * 3;
         padding-bottom: $padding * 3;
-
-        &__list {}
-
     }
 
     .objective,
@@ -368,6 +360,10 @@ a {
     .interests {
         padding-top: $padding * 3;
         padding-bottom: $padding * 3;
+    }
+
+    .projects {
+        border-bottom: none;
     }
 
     .info {

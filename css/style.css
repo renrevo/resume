@@ -322,10 +322,7 @@ a:hover {
     margin-left: 1.5rem;
     margin-right: 2.25rem;
   }
-  .author {
-    padding-top: 2.25rem;
-    padding-bottom: 2.25rem;
-  }
+  .author,
   .contact {
     padding-top: 2.25rem;
     padding-bottom: 2.25rem;
@@ -340,6 +337,9 @@ a:hover {
   .interests {
     padding-top: 2.25rem;
     padding-bottom: 2.25rem;
+  }
+  .projects {
+    border-bottom: none;
   }
   .info__head {
     display: -webkit-box;
