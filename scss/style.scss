@@ -45,8 +45,6 @@ a {
 
     &__section-head {
         position: relative;
-        // display: flex;
-        // align-items: center;
     }
 
     &__section-heading {
@@ -116,7 +114,7 @@ a {
     &__designation {
         width: fit-content;
         font-size: $t5;
-        font-weight: $font-weight-medium;
+        font-weight: $font-weight-semiBold;
         color: $color-white;
         background-color: $color-primary;
         padding: $padding * 0.5 $padding;
@@ -236,6 +234,12 @@ a {
         font-weight: $font-weight-medium;
         line-height: 1.6;
         margin-top: $margin;
+
+        li {
+            margin-top: $margin * 0.5;
+            margin-left: $margin * 1.5;
+            list-style: disc;
+        }
     }
 
 }
@@ -254,6 +258,7 @@ a {
 
     &__item {
         font-size: $t5;
+        font-weight: $font-weight-medium;
         margin-top: $margin * 0.5;
         line-height: 1.6;
     }
